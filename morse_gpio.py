@@ -50,8 +50,8 @@ verbose_bool = False
 
 # By default: calculated based on the WPM_ variable above.
 # Set them manually if you prefer. 
-DOT_LENGTH_  = (2.4 * (1 / WPM_))
-DASH_LENGTH_ = (DOT_LENGTH_ * 3)
+DOT_LENGTH_ = (2.4 * (1 / WPM_))
+DSH_LENGTH_ = (DOT_LENGTH_ * 3)
 ELEM_PAUSE_ = (DOT_LENGTH_)
 CHAR_PAUSE_ = (DOT_LENGTH_ * 3)
 WORD_PAUSE_ = (DOT_LENGTH_ * 7)
@@ -91,7 +91,7 @@ def dot():
     
 def dash():
     GPIO.output(GPIO_NUM, True)
-    time.sleep(DASH_LENGTH_)
+    time.sleep(DSH_LENGTH_)
     GPIO.output(GPIO_NUM, False)
     time.sleep(ELEM_PAUSE_)
     return
