@@ -14,6 +14,12 @@
 #
 # ** Any imported libraries may have different licences. 
 #    The author(s) claim no rights to those dependencies. 
+#
+###############################################################################
+# 
+# Thanks to user techthatinterest on YouTube for a tutorial on how to
+# wire the GIPO:  https://youtu.be/R6s_7UaOSKA
+# 
 ###############################################################################
 # Prompts for user input
 #  translates input through a morse code dictionary 
